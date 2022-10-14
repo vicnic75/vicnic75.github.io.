@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+main{
+    width: 100%;
+    height:10vh;
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    margin: none;
+    padding: 0px;
+
+
+}
+body{
+    border:none;
+    
+}
+nav{
+    font-weight: bold;
+    color: whitesmoke;
+    width: 100%;
+    height: 12vh;
+    display: block;
+    box-shadow: inset 2px 2px 20px rgba(255,255,255,.5);
+    text-shadow: 2px 2px black;
+    margin: none;
+    background: linear-gradient(cyan,blue);
+    box-sizing: border-box;
+    
+
+}
+#africa{
+    color: orangered;
+}
+#cloud{
+    
+    text-shadow: 2px 2px 2px 2px whitesmoke;
+}
+ul{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+height: 100%;
+list-style: none;
+
+
+}
+li{
+    padding: 2px; 
+    border-radius: 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+li:hover{
+    background:blue;
+    color: black;
+    text-shadow: none;
+    transition: 3s linear infinite;
+}
+#img-tittle{
+    width: 12vh;
+    height: 12vh;
+    border-radius: 50%;
+    box-shadow: 20px 7px 70px 3px rgba(0,0,0,1),rgba(255,255, 255,0.25);
+
+}
+#company-title{
+padding: 2px;
+margin-right: 2px;
+width: 15vh;
+text-align: center;
+box-shadow:  inset 20px 7px 70px  50px rgba(0,0,0,1), inset rgba(255,255, 255,0.5);
+}
+@media(max-width:500px){
+    body{
+        font-size: x-small;
+        margin: 2px;
+        padding: 2px;
+        
+    }
+    button{
+        font-size: 15px;
+    }
+    h1{
+        background: red;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 0;
+        text-decoration: none;
+    }
+    li{
+        font-size: 10px;
+    }
+    .facebook2{
+        font-size: 12px;
+        width: auto;
+    }
+
+}
+video{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+.explore{
+    text-align: center;
+    color: black;
+    background:rgba(12,0,255,.5);
+    color: orangered;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+    
+}
+#exp{
+    margin-top: 30vh;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    text-transform: capitalize;
+    margin: 20px;
+
+}
+h3,p{
+    background: white;
+    color: black;
+    padding: 20px;
+}
+h2{
+    color: white;
+    padding: auto;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 2px;
+    
+}
+#f300{
+    margin: 0;
+    height: 3vh;
+    width: 4vh;
+    zoom:4;
+    animation: truck 5s;
+
+}
+@keyframes truck{
+
+    0%{ transform: translateX(0px);}
+
+    100%{transform: translateX(50px);}
+
+}
+.facebook2{
+    
+    padding: 5vh;
+    color: darkblue;
+    background: white;
+    width: 100%;
+    margin-top: 30vh;
+    border-radius: 5px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.facebook2:hover{
+    
+    background: blue;
+    color: white;
+}
+a{
+    text-decoration-line: none;
+    
+}
+#homepage{
+    margin-top: 30vh;
+    background: rgba(255,255,255,1);
+    color: black;
+}
+
+button{
+    width: auto;
+    height: 10vh;
+    font-weight: bold;
+    color: blue;
+    font-size: 3rem;
+    margin: auto;
+    border: none;
+    box-shadow: 6px 6px 6px 6px rgba(255,255, 255,0.25),rgba(255,255, 255,0.25);
+}
