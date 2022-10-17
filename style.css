@@ -226,14 +226,16 @@ label{
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        transition: 2s ease-in-out;
+        transition: 1s ease-in-out;
         margin-top: 20px;
         margin-right: 40px
+        border:5px solid redorange;
         
     }
 
      #sct2:hover{
         background: orangered;
+        
 
      }
     
