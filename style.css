@@ -257,7 +257,7 @@ font-family: sans-serif;
  font-size: 1rem;
  list-style: none;
  text-transform: capitalize;
- border:5px groove white;
+ border:5px groove orangered;
  width: 6rem;
  border-radius: 5px;
  color: white;
@@ -292,7 +292,7 @@ font-family: sans-serif;
         transition: 30s;
     }
     #f3000:hover{
-        transition: 30s;
+        transition: 20s;
         transform: translateX(39px);
         transition: 10s;
     }
