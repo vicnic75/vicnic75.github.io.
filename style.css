@@ -271,6 +271,7 @@ font-family: sans-serif;
         border:1px solid black;
         background: black;
         text-shadow: 2px 2px 1px  black;
+        border:1px solid black;
     }
     .zoom{
         font-size: 55px;
