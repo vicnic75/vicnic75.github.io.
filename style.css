@@ -268,7 +268,7 @@ font-family: sans-serif;
     }
     .item2:hover{
         transition: .02s ease-in-out;
-        background: orangered;
+        border:1px solid black;
         background: black;
         text-shadow: 2px 2px 1px  black;
     }
