@@ -229,7 +229,7 @@ label{
         flex-direction: column;
         transition: 1s ease-in-out;
         margin-top: 20px;
-        margin-right: 40px
+        margin-right: 40px;
         border:5px solid redorange;
         
     }
