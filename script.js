@@ -1,41 +1,10 @@
-
-const explorex=document.querySelector('#exp')
-const button=['home','about','facebook','contacts','email']
-
-const data={
-    home:`<h1 class='explore' id='homepage'  class='explore' >Call/WhatsApp 0774816199<br>The Best Quality Truck Spares Parts<img id='f300'src="F3000.png" alt=""></h1>`,
-    contacts:`<h1 class='explore'><a  target='blank'href='tel:+263774816199'><a href="https://wa.me/263774816199?text=hi">Send WhatsApp Now</a>Call Us Now</h1>
-    `,
-    email:`<h1  class='facebook2'  style='color:black'><a target='blank'href='mailto:partsspares@clouda.co.zw'>Email partsspares@clouda.co.zw<img id='f300'src="F3000.png" alt=""></h1>`,
-    facebook:`<h1  class='facebook2' >Click Here<a target='blank'href='https://www.facebook.com/100086196271500/'><button>facebook</button><img id='f300'src="F3000.png" alt=""></h1>`,
-    about:`<h3>Cloud Africa Parts Spares has the best parts for your trucks</h3>`
+function cont(){
+document.querySelector('#main-sect').innerHTML=`<section class="sct2">
+<h1 class="company-heading"><span class="africa zoom">CLOUD</span class='cloud zoom'><span class="africa" class="zoom"></span><span class="africa zoom"> AFRICA</span> <span id="parts-spares"> <span class="cloud"><br>PARTS</span> <span class="cloud">SPARES</span></h1>
+<p class="par"><i>Cloud Africa 
+    , Keeeping You On The Road</i>
+</p>
+<p><i style="font-size:15px;">email us @<br></i><button><a target='blank'href="mailto:partsspares@clouda.co.zw">partsspares@clouda.co.zw</a></button></p>
+<p><i style="font-size:15px;">call us @<br></i><button><a target='blank'href="tel:+263774816199">+263774816199</a></button></p>
+</section>`
 }
-
-function find(){
-button.forEach((press)=>{
-document.querySelector('#'+press).addEventListener('click',()=>{
-    if(press=='facebook'){
-        
-        explorex.innerHTML=data.facebook
-    }
-    else if(press=='home'){
-        explorex.innerHTML=data.home
-    }
-    else if(press=='contacts'){
-        explorex.innerHTML=data.contacts
-    }
-    else if(press=='email'){
-        explorex.innerHTML=data.email
-    }
-    else{
-explorex.innerHTML=`<div class="explore">
-<h2>${press.toUpperCase()}</h2>
-<p>${data.about}</p>
-<img id='f300'src="F3000.png" alt="">
-</div>
-
-`}
-})
-})
-}
-find()
